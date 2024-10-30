@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+label {
+  display: block;
+}
+
+form {
+  display: flex;
+  width: 400px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  background: #f9f9f9;
+}
+.login-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
