@@ -32,3 +32,64 @@ form {
   flex-direction: column;
   align-items: flex-start;
 }
+.login-title {
+  width: 336px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: "Plus Jakarta Sans";
+  color: #000;
+}
+.loging-subtitle {
+  color: #000;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.login-label {
+  color: #555;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.login-input {
+  display: flex;
+  width: 336px;
+  height: 40px;
+  padding-left: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: #eee;
+}
+.login-submit {
+  display: flex;
+  width: 336px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #1576ea;
+}
+
+.login-input:focus {
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: #eee;
+  outline: none;
+  transition: 0.5s;
+}
+
+.login-submit:focus {
+  border-radius: 4px;
+  background: #1576ea;
+}
