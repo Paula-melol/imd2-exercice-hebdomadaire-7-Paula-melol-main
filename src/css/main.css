@@ -25,7 +25,9 @@ form {
   align-items: flex-start;
   gap: 16px;
   flex-shrink: 0;
-  background: #f9f9f9;
+  border-radius: 32px;
+  border: 1px solid #ccc;
+  background: #fff;
 }
 .login-heading {
   display: flex;
@@ -48,6 +50,7 @@ form {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  width: 336px;
 }
 
 .login-label {
